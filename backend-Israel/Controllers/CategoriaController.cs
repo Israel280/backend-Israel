@@ -1,6 +1,7 @@
 ﻿using backend_Israel.Dominio;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
+using backend_Israel.Servicios;
 using Microsoft.AspNetCore.Mvc;
 
 namespace backend_Israel.Controllers
