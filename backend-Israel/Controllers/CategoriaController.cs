@@ -30,7 +30,7 @@ namespace backend_Israel.Controllers
         {
             _configuration = configuration;
             connectionString =
-            _configuration["SqlConnectionString:DefaultConnection"];
+            _configuration[];
             DBManager.Instance.ConnectionString = connectionString;
         }
 
